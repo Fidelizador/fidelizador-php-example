@@ -1,0 +1,19 @@
+{
+    "name": "fidelizador/example",
+    "description": "This is a example using php.",
+    "authors": [
+        {
+            "name": "Daniel Munoz",
+            "email": "dmunoz@fidelizador.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fidelizador\\": "src/Fidelizador"
+        }
+    }
+}

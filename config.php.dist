@@ -1,0 +1,7 @@
+<?php
+
+define( 'CLIENTID', 'yourclientid' );
+define( 'SECRET', 'yoursecret' );
+define( 'SLUG', 'your-fidelizador-slug' );
+
+?>

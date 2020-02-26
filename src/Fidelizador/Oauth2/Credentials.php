@@ -2,7 +2,7 @@
 namespace Fidelizador\Oauth2;
 
 class Credentials {
-    const URL_TOKEN = "https://login.fidelizador.com/oauth/v2/token";
+    const URL_TOKEN = "https://api.fidelizador.com/oauth/v2/token";
     private $clientId = null;
     private $secret = null;
     private $slug = null;

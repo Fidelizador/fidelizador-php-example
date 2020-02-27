@@ -23,7 +23,7 @@ class ContactManager {
      * @param slug Instance slug
      * @param access_token Access token obtained through Oauth2
      * 
-     * @method GET
+     * @method POST
      * @return Associative array with response. Return contact information
      */ 
     public function updateContact($slug, $access_token, $uniquecode, $fields) {

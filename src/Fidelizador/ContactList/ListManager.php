@@ -100,7 +100,7 @@ class ListManager {
      * @param slug Instance slug
      * @param access_token Access token obtained through Oauth2
      * 
-     * @method GET
+     * @method POST
      * @return Associative array with response
      */ 
     public function createImport($slug, $access_token, $list_id) {
